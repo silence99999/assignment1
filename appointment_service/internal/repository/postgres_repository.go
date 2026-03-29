@@ -82,7 +82,7 @@ func (p *PostgresAppointmentrRepo) UpdateStatusByID(status model.Status, updated
 	ctx, cancel := context.WithTimeout(context.Background(), time.Second*3)
 	defer cancel()
 
-	args := []interface{}{status, id}
+	args := []interface{}{status, updatedAt, id}
 
 	_, err := p.db.Exec(ctx, query, args...)
 

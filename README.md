@@ -199,6 +199,30 @@ These improvements ensure system stability at scale.
 
 ---
 
+### Postman examples
+
+![img.png](img.png)
+create appointment when doctor service is down
+
+![img_1.png](img_1.png)
+successfull creation of appointment
+
+![img_2.png](img_2.png)
+doctor creation
+
+![img_3.png](img_3.png)
+get all doctors
+
+![img_4.png](img_4.png)
+get all appointments
+
+![img_5.png](img_5.png)
+![img_6.png](img_6.png)
+get by id
+
+![img_7.png](img_7.png)
+update appointment status
+
 ##  Summary
 
 This project demonstrates:
