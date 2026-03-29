@@ -46,7 +46,7 @@ The system is structured using **Clean Architecture principles** to ensure separ
 
 ---
 
-## 🏗 Folder Structure & Dependency Flow
+## Folder Structure & Dependency Flow
 
 Each service follows Clean Architecture:
 
